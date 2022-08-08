@@ -12,7 +12,7 @@ Blackjack! is a front-end exercise to demonstrate the basics of DOM manipulation
 
 Published June 2022
 
-[Email Me](blake.lein@gmail.com) / [GitHub](https://github.com/BlakeLein?tab=repositories)
+[Email Me](blake.lein@gmail.com) / [GitHub](https://github.com/BlakeLein/Blackjack)
 
 ## Running Blackjack!
 
