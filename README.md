@@ -60,15 +60,12 @@ Blackjack! combines the minimum functionality of the front-end library to presen
 
 ## Photos of Blackjack!
 
-<img src="demoImages/open.png"
+<img src="demoImages/home.png"
 alt="Opening Game"
-width="700" height="500"
+width="700" height="400"
 />
-<img src="demoImages/dealer.png"
-alt="Dealer Wins"
-width="700" height="500"
-/>
-<img src="demoImages/player.png"
-alt="Player Wins"
-width="700" height="500"
+
+<img src="demoImages/playerWin.png"
+alt="Opening Game"
+width="700" height="400"
 />

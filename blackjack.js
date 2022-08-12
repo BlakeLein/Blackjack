@@ -1,7 +1,7 @@
 window.addEventListener("DOMContentLoaded", function () {
   // Execute after page load
   // Grabbing HTML Elements
-  const wholeBody = document.querySelector("body"); // Grab the entire body.y
+  const wholeBody = document.querySelector("body"); // Grab the entire body.
   const dealerHand = document.getElementById("dealer-hand"); // Grab the dealer's hand
   const playerHand = document.getElementById("player-hand"); // Grab the player's hand
   const dealButton = document.getElementById("deal-button"); // Grab the deal button
@@ -20,11 +20,8 @@ window.addEventListener("DOMContentLoaded", function () {
   const suits = ["hearts", "spades", "clubs", "diamonds"]; // List of possible suits
   const ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]; // List of possible ranks (1 is Ace moving up)
 
-  // const testDeck = [
-  //   { rank: 10, suit: "hearts", pointValue: 10 },
-  //   { rank: 11, suit: "spades", pointValue: 11 },
-  //   // { rank: 15, suit: "hearts", pointValue: 5 },
-  // ];
+  // Messages
+  let initialGreeting = "Place a Bet and Deal to Play";
 
   // Arrays for Hands
   let dealerCards = [];
@@ -268,6 +265,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     //Clear the message zone
     messageZone.innerHTML = null;
+    messageZone.innerHTML = initialGreeting;
 
     // Set round scores to zero
     playerCount = 0;
@@ -319,6 +317,7 @@ window.addEventListener("DOMContentLoaded", function () {
   // Handles the events of clicking the deal button.
   dealButton.addEventListener("click", () => {
     lowerZone.innerHTML = null;
+    messageZone.innerHTML = null;
     deal();
     playerRender(playerCards);
     renderFaceDownDeal(dealerCards);
